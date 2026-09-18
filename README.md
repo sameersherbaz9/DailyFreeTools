@@ -33,18 +33,18 @@ Instead of uploading sensitive user documents (like resumes, legal PDFs, or pers
 
 ## 💻 Tech Stack
 
-*   **Frontend:** Vanilla JavaScript (ES6+), HTML5, CSS3 (Custom Glassmorphism UI)
-*   **Document Parsing:** `mammoth.js` (for DOCX to HTML conversion)
+*   **Frontend:** Vanilla JavaScript, HTML5, CSS3 
+*   **Document Parsing:** `mammoth.js` 
 *   **PDF Manipulation:** `pdf-lib` and `html2pdf.js`
-*   **Image Compression:** `browser-image-compression` (utilizing Web Workers)
+*   **Image Compression:** `browser-image-compression`
 *   **Hosting & CDN:** Cloudflare Pages
 *   **Monetization:** Monetag Ad Network
 
 ## 📈 SEO & Performance Optimizations
 
 *   **Multi-Page Architecture:** The application was strategically split from a Single Page Application (SPA) into dedicated HTML pages (`word-to-pdf.html`, `pdf-merger.html`, etc.) to target specific long-tail SEO keywords.
-*   **Core Web Vitals:** JavaScript execution is deeply optimized with event-loop yielding (`setTimeout` API) to ensure instant UI feedback (maintaining a green Interaction to Next Paint (INP) score) before heavy synchronous file conversions block the main thread.
+*   **Core Web Vitals:** JavaScript execution is deeply optimized with event-loop yielding to ensure instant UI feedback before heavy synchronous file conversions block the main thread.
 *   **Schema Markup:** Fully implemented `WebApplication` JSON-LD structured data for rich search results.
 
 ---
-*Designed and Developed by [Your Name/Sameer Sherbaz]*
+*Designed and Developed by Sameer Sherbaz*
